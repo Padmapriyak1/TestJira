@@ -41,7 +41,7 @@ public class TestWelcome {
                 get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(view().name("index"))
+                .andExpect(view().name("index1"))
                 .andExpect(forwardedUrl("/WEB-INF/views/index.jsp"))
                 .andExpect(model().attribute("msg", "Hello World"));
 
