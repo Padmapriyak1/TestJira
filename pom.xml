@@ -62,16 +62,7 @@
          <version>3.7.0.1746</version>
         </dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-		
-		<dependency>
-		<groupId>org.sonarsource.scanner.maven</groupId>
-		<artifactId>sonar-maven-plugin</artifactId>
-		<version>3.6.0.1398</version>
-		</dependency>
-
-
-        <!-- for web servlet -->
+		<!-- for web servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
